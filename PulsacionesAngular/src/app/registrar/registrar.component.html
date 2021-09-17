@@ -1,0 +1,26 @@
+<div class="contenedor">
+  <form>
+    <div class="form-floating mb-3">
+      <input type="number" class="form-control" id="floatingInput" name="identificacion"
+        [(ngModel)]="persona.identificacion" placeholder="Identificación">
+      <label for="floatingInput">Identificación</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" name="nombre" [(ngModel)]="persona.nombre"
+        placeholder="Nombre">
+      <label for="floatingInput">Nombre</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="number" class="form-control" id="floatingInput" name="edad" [(ngModel)]="persona.edad"
+        placeholder="Edad">
+      <label for="floatingInput">Edad</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" name="sexo" [(ngModel)]="persona.sexo"
+        placeholder="Sexo">
+      <label for="floatingInput">Sexo</label>
+    </div>
+
+    <button type="button" class="btn btn-danger" (click)="crearpersona()">Calcular Pulsaciones</button>
+  </form>
+</div>

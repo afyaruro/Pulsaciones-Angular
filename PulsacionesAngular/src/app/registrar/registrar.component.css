@@ -1,0 +1,18 @@
+.contenedor{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+input[type=number], input[type=text]{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select{
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
